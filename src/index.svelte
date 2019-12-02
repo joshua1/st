@@ -2,6 +2,12 @@
   const a: string = "Svelte",
         b: string = "Typescript",
         c: string = "Parcel"
+
+  import { registerServiceWorker, handleNetworkStatus, appDeviceInstall } from './utils'
+
+  registerServiceWorker()
+  handleNetworkStatus()
+  appDeviceInstall()
 </script>
 
 <style type="scss">

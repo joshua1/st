@@ -34,7 +34,8 @@
   "devDependencies": {
     "@pyoner/svelte-ts-preprocess": "^1.2.1",
     "@types/express": "^4.17.1",
-    "@types/node": "^12.7.11"
+    "@types/node": "^12.7.11",
+    "register-service-worker": "^1.6.2"
   },
   "browserslist": [
     "last 1 chrome versions"
